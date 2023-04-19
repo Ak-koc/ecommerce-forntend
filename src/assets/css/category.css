@@ -1,0 +1,27 @@
+.categories-wrapper{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+.category-wrapper{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.category-item{
+    border: 1px solid #1876D1;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.category-item:hover{
+    background-color:  #1876D1;
+    color: #ffff;
+
+}
